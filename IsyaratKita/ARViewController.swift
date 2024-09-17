@@ -109,12 +109,16 @@ struct ARViewController: UIViewRepresentable {
             }
             
             //MARK: Hand Pose = Angka
-            guard let handPoseModelDigits = try? SIBI_Number_Model_Classification(configuration: MLModelConfiguration()) else {
+            guard let handPoseModelDigits = try? SIBI_Angka_Classifier(configuration: MLModelConfiguration()) else {
                 fatalError("Failed to load the angka model classifier")
             }
+            
+//            guard let handPoseModelDigits = try? SIBI_Number_Model_Classification(configuration: MLModelConfiguration()) else {
+//                fatalError("Failed to load the angka model classifier")
+//            }
         
-            //MARK: Hand Action = Kata
-            guard let handActionModel = try? SIBI_Kata_Model_Classifier(configuration: MLModelConfiguration()) else {
+            //MARK: Hand Action = Kata (for presentation only)
+            guard let handActionModel = try? SIBI_Kata_Classifier(configuration: MLModelConfiguration()) else {
                 fatalError("Failed to load the hand action model")
             }
             

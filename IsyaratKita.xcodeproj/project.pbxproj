@@ -22,6 +22,8 @@
 		3CB96D5C2C26BDF3007FD331 /* SIBI Huruf Model Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CB96D5B2C26BDF3007FD331 /* SIBI Huruf Model Classifier.mlmodel */; };
 		3CB96D5E2C26BE04007FD331 /* SIBI Angka Model Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CB96D5D2C26BE04007FD331 /* SIBI Angka Model Classifier.mlmodel */; };
 		3CB96D602C26BE10007FD331 /* SIBI Kata Model Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CB96D5F2C26BE10007FD331 /* SIBI Kata Model Classifier.mlmodel */; };
+		3CD297A12C99D9BA00DB81D0 /* SIBI Angka Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CD297A02C99D9BA00DB81D0 /* SIBI Angka Classifier.mlmodel */; };
+		3CD297A32C99D9D700DB81D0 /* SIBI Kata Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CD297A22C99D9D700DB81D0 /* SIBI Kata Classifier.mlmodel */; };
 		3CDD3CF72C11F3D30029A7C4 /* KamusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDD3CF62C11F3D30029A7C4 /* KamusView.swift */; };
 		3CE2D30D2C00A57C00202C0D /* SIBI Model Recognition.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2D30C2C00A57B00202C0D /* SIBI Model Recognition.mlmodel */; };
 /* End PBXBuildFile section */
@@ -44,6 +46,8 @@
 		3CB96D5B2C26BDF3007FD331 /* SIBI Huruf Model Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SIBI Huruf Model Classifier.mlmodel"; sourceTree = "<group>"; };
 		3CB96D5D2C26BE04007FD331 /* SIBI Angka Model Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SIBI Angka Model Classifier.mlmodel"; sourceTree = "<group>"; };
 		3CB96D5F2C26BE10007FD331 /* SIBI Kata Model Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SIBI Kata Model Classifier.mlmodel"; sourceTree = "<group>"; };
+		3CD297A02C99D9BA00DB81D0 /* SIBI Angka Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "SIBI Angka Classifier.mlmodel"; path = "../../../../Desktop/SIBI Angka Classifier.mlmodel"; sourceTree = "<group>"; };
+		3CD297A22C99D9D700DB81D0 /* SIBI Kata Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SIBI Kata Classifier.mlmodel"; sourceTree = "<group>"; };
 		3CDD3CF62C11F3D30029A7C4 /* KamusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamusView.swift; sourceTree = "<group>"; };
 		3CE2D30C2C00A57B00202C0D /* SIBI Model Recognition.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SIBI Model Recognition.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +95,8 @@
 				3CA9AD142BFC91ED00D46449 /* customHandSign-ver1.mlmodel */,
 				3CA9AD122BFB1BA300D46449 /* BISINDO Version 2.mlmodel */,
 				3CA9AD0C2BFA7A3E00D46449 /* SibiModel.mlmodel */,
+				3CD297A22C99D9D700DB81D0 /* SIBI Kata Classifier.mlmodel */,
+				3CD297A02C99D9BA00DB81D0 /* SIBI Angka Classifier.mlmodel */,
 				3C3A586A2C1C650E00F468AA /* SIBI Number Model Classification.mlmodel */,
 				3CB96D612C26BE1D007FD331 /* Models */,
 				3CA9AD022BFA767F00D46449 /* Preview Content */,
@@ -196,11 +202,13 @@
 				3CB96D602C26BE10007FD331 /* SIBI Kata Model Classifier.mlmodel in Sources */,
 				3C3A586B2C1C650E00F468AA /* SIBI Number Model Classification.mlmodel in Sources */,
 				3CDD3CF72C11F3D30029A7C4 /* KamusView.swift in Sources */,
+				3CD297A12C99D9BA00DB81D0 /* SIBI Angka Classifier.mlmodel in Sources */,
 				3CA9ACFF2BFA767D00D46449 /* ContentView.swift in Sources */,
 				3CE2D30D2C00A57C00202C0D /* SIBI Model Recognition.mlmodel in Sources */,
 				3CA9AD152BFC91ED00D46449 /* customHandSign-ver1.mlmodel in Sources */,
 				3CA9ACFD2BFA767D00D46449 /* IsyaratKita.swift in Sources */,
 				3CA9AD132BFB1BA300D46449 /* BISINDO Version 2.mlmodel in Sources */,
+				3CD297A32C99D9D700DB81D0 /* SIBI Kata Classifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
