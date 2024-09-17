@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C1F48592C99E5160010334B /* SIBI Kata Classifier New.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F48582C99E5160010334B /* SIBI Kata Classifier New.mlmodel */; };
 		3C3A586B2C1C650E00F468AA /* SIBI Number Model Classification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A586A2C1C650E00F468AA /* SIBI Number Model Classification.mlmodel */; };
 		3C78F59C2C19BBAF00D0681B /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C78F59B2C19BBAF00D0681B /* ImageItem.swift */; };
 		3CA9ACFD2BFA767D00D46449 /* IsyaratKita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA9ACFC2BFA767D00D46449 /* IsyaratKita.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C1F48582C99E5160010334B /* SIBI Kata Classifier New.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SIBI Kata Classifier New.mlmodel"; sourceTree = "<group>"; };
 		3C3A586A2C1C650E00F468AA /* SIBI Number Model Classification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SIBI Number Model Classification.mlmodel"; sourceTree = "<group>"; };
 		3C78F59B2C19BBAF00D0681B /* ImageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
 		3CA9ACF92BFA767D00D46449 /* IsyaratKita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsyaratKita.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 				3CA9AD122BFB1BA300D46449 /* BISINDO Version 2.mlmodel */,
 				3CA9AD0C2BFA7A3E00D46449 /* SibiModel.mlmodel */,
 				3CD297A22C99D9D700DB81D0 /* SIBI Kata Classifier.mlmodel */,
+				3C1F48582C99E5160010334B /* SIBI Kata Classifier New.mlmodel */,
 				3CD297A02C99D9BA00DB81D0 /* SIBI Angka Classifier.mlmodel */,
 				3C3A586A2C1C650E00F468AA /* SIBI Number Model Classification.mlmodel */,
 				3CB96D612C26BE1D007FD331 /* Models */,
@@ -202,6 +205,7 @@
 				3CB96D602C26BE10007FD331 /* SIBI Kata Model Classifier.mlmodel in Sources */,
 				3C3A586B2C1C650E00F468AA /* SIBI Number Model Classification.mlmodel in Sources */,
 				3CDD3CF72C11F3D30029A7C4 /* KamusView.swift in Sources */,
+				3C1F48592C99E5160010334B /* SIBI Kata Classifier New.mlmodel in Sources */,
 				3CD297A12C99D9BA00DB81D0 /* SIBI Angka Classifier.mlmodel in Sources */,
 				3CA9ACFF2BFA767D00D46449 /* ContentView.swift in Sources */,
 				3CE2D30D2C00A57C00202C0D /* SIBI Model Recognition.mlmodel in Sources */,

@@ -112,13 +112,9 @@ struct ARViewController: UIViewRepresentable {
             guard let handPoseModelDigits = try? SIBI_Angka_Classifier(configuration: MLModelConfiguration()) else {
                 fatalError("Failed to load the angka model classifier")
             }
-            
-//            guard let handPoseModelDigits = try? SIBI_Number_Model_Classification(configuration: MLModelConfiguration()) else {
-//                fatalError("Failed to load the angka model classifier")
-//            }
         
-            //MARK: Hand Action = Kata (for presentation only)
-            guard let handActionModel = try? SIBI_Kata_Classifier(configuration: MLModelConfiguration()) else {
+            //MARK: Hand Action = Kata
+            guard let handActionModel = try? SIBI_Kata_Classifier_New(configuration: MLModelConfiguration()) else {
                 fatalError("Failed to load the hand action model")
             }
             
@@ -161,7 +157,7 @@ struct ARViewController: UIViewRepresentable {
                     }
                     
                 case "Kata" :
-                    if handPoseObservations.count == 30 {
+                    if handPoseObservations.count == 60 {
                         
                         let combinedMultiArray = MLMultiArray(concatenating: handPoseObservations, axis: 0, dataType: .float32)
                         handPoseObservations.removeAll()
