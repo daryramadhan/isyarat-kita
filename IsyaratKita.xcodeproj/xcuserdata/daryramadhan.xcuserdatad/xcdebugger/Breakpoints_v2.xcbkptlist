@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8EC2E5A8-1BF5-40B4-9BDE-F128A5AD3728"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18935C50-6B07-4262-B3B5-823C7DBC76FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignRecognitionVersion11/ARViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "Coordinator"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "18935C50-6B07-4262-B3B5-823C7DBC76FD - 144d2d67cad783af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignRecognitionVersion11.ARViewController.Coordinator.interval.getter : Swift.Int"
+                  moduleName = "SignRecognitionVersion11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daryramadhan/Documents/Bismillah%20Skripxi!/SignRecognitionVersion11/SignRecognitionVersion11/ARViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "18935C50-6B07-4262-B3B5-823C7DBC76FD - fa2ef1264850b17a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignRecognitionVersion11.ARViewController.Coordinator.interval.setter : Swift.Int"
+                  moduleName = "SignRecognitionVersion11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daryramadhan/Documents/Bismillah%20Skripxi!/SignRecognitionVersion11/SignRecognitionVersion11/ARViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "18935C50-6B07-4262-B3B5-823C7DBC76FD - 4d85b775b354a069"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignRecognitionVersion11.ARViewController.Coordinator.interval.modify : Swift.Int"
+                  moduleName = "SignRecognitionVersion11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daryramadhan/Documents/Bismillah%20Skripxi!/SignRecognitionVersion11/SignRecognitionVersion11/ARViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "18935C50-6B07-4262-B3B5-823C7DBC76FD - 486682fde7a48e47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignRecognitionVersion11.ARViewController.Coordinator.interval.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SignRecognitionVersion11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daryramadhan/Documents/Bismillah%20Skripxi!/SignRecognitionVersion11/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1055A830-AE77-4203-B7B9-DE3076E9F2B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SignRecognitionVersion11/ARViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "Coordinator"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "1055A830-AE77-4203-B7B9-DE3076E9F2B8 - ddbcd81d9a6d40f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignRecognitionVersion11.ARViewController.Coordinator.__allocating_init() -&gt; SignRecognitionVersion11.ARViewController.Coordinator"
+                  moduleName = "SignRecognitionVersion11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daryramadhan/Documents/Bismillah%20Skripxi!/SignRecognitionVersion11/SignRecognitionVersion11/ARViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "1055A830-AE77-4203-B7B9-DE3076E9F2B8 - 5235886546e22668"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignRecognitionVersion11.ARViewController.Coordinator.init() -&gt; SignRecognitionVersion11.ARViewController.Coordinator"
+                  moduleName = "SignRecognitionVersion11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daryramadhan/Documents/Bismillah%20Skripxi!/SignRecognitionVersion11/SignRecognitionVersion11/ARViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "1055A830-AE77-4203-B7B9-DE3076E9F2B8 - 9be89d5675118120"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SignRecognitionVersion11.ARViewController.Coordinator.__deallocating_deinit"
+                  moduleName = "SignRecognitionVersion11"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daryramadhan/Documents/Bismillah%20Skripxi!/SignRecognitionVersion11/SignRecognitionVersion11/ARViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4946CF89-252D-47AA-B6B7-2A234912A381"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IsyaratKita/ARViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ARViewController"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
