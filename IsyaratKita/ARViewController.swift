@@ -57,8 +57,10 @@ struct ARViewController: UIViewRepresentable {
             guard let frame = parent.session.currentFrame else {
                 return
             }
+            
             // Convert ARFrame to CVPixelBuffer
             let pixelBuffer = frame.capturedImage
+            
             // Perform hand pose detection
             detectHandPose(pixelBuffer: pixelBuffer)
             
@@ -181,6 +183,63 @@ struct ARViewController: UIViewRepresentable {
             }
             
         }
+        
+        func drawHandLines(handObservation: VNHumanHandPoseObservation) {
+                // Extract keypoints
+                do {
+                    let allPoints = try handObservation.keypointsMultiArray()
+                    
+                    // Get keypoints for important parts of the hand
+                    let thumbPoints = try handObservation.recognizedPoints(.thumb)
+                    let indexFingerPoints = try handObservation.recognizedPoints(.indexFinger)
+                    let middleFingerPoints = try handObservation.recognizedPoints(.middleFinger)
+                    let ringFingerPoints = try handObservation.recognizedPoints(.ringFinger)
+                    let littleFingerPoints = try handObservation.recognizedPoints(.littleFinger)
+                    let wristPoint = try handObservation.recognizedPoints(.wrist)[.wrist]
+                    
+                    // Draw lines between keypoints for visualization (3D in ARSCNView)
+                    let points = [thumbPoints, indexFingerPoints, middleFingerPoints, ringFingerPoints, littleFingerPoints]
+                    
+                    for fingerPoints in points {
+                        for (i, point) in fingerPoints.enumerated() {
+                            if i > 0 {
+                                let previousPoint = fingerPoints[fingerPoints.index(fingerPoints.startIndex, offsetBy: i - 1)]
+                                drawLine(from: point.value, to: previousPoint.value)
+                            }
+                        }
+                        // Draw line from wrist to first finger joint
+                        if let firstPoint = fingerPoints.first?.value {
+                            drawLine(from: wristPoint!.location, to: firstPoint.location)
+                        }
+                    }
+                } catch {
+                    print("Error extracting keypoints")
+                }
+            }
+            
+            func drawLine(from start: CGPoint, to end: CGPoint) {
+                // Convert 2D points to 3D by finding depth via ARKit's hitTest or estimation
+                let start3D = SCNVector3(start.x, start.y, 0.001)
+                let end3D = SCNVector3(end.x, end.y, 0.001)
+                
+                // Create a line node between two 3D points
+                let lineNode = createLineNode(from: start3D, to: end3D)
+                self.parent.session.currentFrame?.scene.rootNode.addChildNode(lineNode)
+            }
+            
+            func createLineNode(from start: SCNVector3, to end: SCNVector3) -> SCNNode {
+                let vertices: [SCNVector3] = [start, end]
+                let vertexSource = SCNGeometrySource(vertices: vertices)
+                
+                let indices: [UInt32] = [0, 1]
+                let indexData = Data(bytes: indices, count: indices.count * MemoryLayout<UInt32>.size)
+                let element = SCNGeometryElement(data: indexData, primitiveType: .line, primitiveCount: 1, bytesPerIndex: MemoryLayout<UInt32>.size)
+                
+                let geometry = SCNGeometry(sources: [vertexSource], elements: [element])
+                geometry.firstMaterial?.diffuse.contents = UIColor.green
+                
+                return SCNNode(geometry: geometry)
+            }
         
     }
 }
